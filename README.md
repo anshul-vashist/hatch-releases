@@ -12,7 +12,7 @@ Installers for **Hatch**, an open, end-to-end encrypted remote desktop. Get the 
 
 **About the warnings.** The installers aren't code-signed, because signing certificates cost money.
 - **Windows:** SmartScreen will warn. Click **More info › Run anyway**.
-- **macOS:** right-click the app and choose **Open** the first time.
+- **macOS:** open the app once, then go to System Settings › Privacy & Security and click **Open Anyway**. (Hatch 0.5.0 downloads from a browser may be reported as "damaged"; run `xattr -dr com.apple.quarantine /Applications/Hatch.app` once, or use 0.5.1 and later.)
 
 **Updates.** On Windows and Linux, Hatch updates itself from this page with one click, under **Settings › About**. On macOS, Hatch tells you when a new version is out.
 
